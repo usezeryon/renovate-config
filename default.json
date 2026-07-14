@@ -104,7 +104,7 @@
     {
       "description": "Automerge minor and patch GitHub Actions updates",
       "matchManagers": ["github-actions"],
-      "matchUpdateTypes": ["minor", "patch"],
+      "matchUpdateTypes": ["minor", "patch", "digest", "pin"],
       "groupName": "github actions",
       "automerge": true,
       "addLabels": ["github-actions", "{{updateType}}"]
@@ -114,6 +114,7 @@
       "matchManagers": ["dockerfile", "docker-compose"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "docker",
+      "automerge": true,
       "addLabels": ["docker", "{{updateType}}"]
     }
   ]
