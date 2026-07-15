@@ -27,11 +27,9 @@
     "group:linters"
   ],
 
-  "assignees": ["teneplaysofficial"],
+  "gitIgnoredAuthors": ["66853113+pre-commit-ci[bot]@users.noreply.github.com", "114827586+autofix-ci[bot]@users.noreply.github.com"],
 
-  "gitIgnoredAuthors": ["66853113+pre-commit-ci[bot]@users.noreply.github.com"],
-
-  "ignoreAuthors": ["pre-commit-ci[bot]"],
+  "ignoreAuthors": ["pre-commit-ci[bot]", "autofix-ci[bot]"],
 
   "osvVulnerabilityAlerts": true,
 
